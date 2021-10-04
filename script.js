@@ -7,9 +7,10 @@ $(document).ready(() => {
         })
     })
     $('#suporte').on('click', () => {
-        //$('#pagina').load('suporte.html')
+        $('#pagina').load('suporte.html')
 
     })
+
 
     //ajax
     $('#competencia').on('change', e => {
